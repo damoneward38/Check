@@ -1,0 +1,25 @@
+## ⚠️ IMPORTANT: Deployment Requirements
+
+This is a **full-stack application** and CANNOT run on Vercel or GitHub Pages.
+
+### It CANNOT run:
+❌ Node.js backend code
+❌ tRPC procedures
+❌ Database queries
+❌ PayPal webhooks
+❌ File uploads to S3
+
+### Use these platforms for full-stack deployment:
+
+| Platform | Frontend | Backend | Database | Cost |
+|----------|----------|---------|----------|------|
+| **Railway** | ✅ | ✅ | ✅ Included | Free tier available |
+| **Render** | ✅ | ✅ | ✅ Included | Free tier available |
+| **Manus** | ✅ | ✅ | ✅ Included | Production-ready |
+| **Vercel** | ✅ | ❌ | ❌ | Frontend only |
+| **GitHub Pages** | ✅ Only | ❌ | ❌ | Frontend only |
+
+### Recommended: Railway
+Railway is the easiest for this full-stack app. It includes Node.js backend, database, and free tier.
+
+See `RAILWAY_DEPLOYMENT.md` for setup instructions.
